@@ -7,7 +7,7 @@ import requests, json
 
 
 # credentials/headers
-cred = ("floe", "api_key_or_password_here") # TODO: fill this in
+cred = ("user", "pass or token") # TODO: fill this in
 headers = {"Accept": "application/vnd.github.nightshade-preview+json"}
 
 
