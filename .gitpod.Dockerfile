@@ -7,5 +7,6 @@ FROM gitpod/workspace-full
 # More information: https://www.gitpod.io/docs/config-docker/
 
 # Install custom tools, runtime, etc.
+RUN brew update
 RUN brew install pygobject3 gtk+3
 
