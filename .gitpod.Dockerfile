@@ -12,3 +12,4 @@ RUN sudo apt-get install -y libgirepository1.0-dev build-essential \
   libbz2-dev libreadline-dev libssl-dev zlib1g-dev libsqlite3-dev wget \
   curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libcairo2-dev
 
+RUN sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0
